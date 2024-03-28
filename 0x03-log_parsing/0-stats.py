@@ -40,12 +40,7 @@ def parseLogs():
 
 
 def report(fileSize, statusCodes):
-    """
-    Prints generated report to standard output
-    Args:
-        fileSize (int): total log size after every 10 successfully read line
-        statusCodes (dict): dictionary of status codes and counts
-    """
+    """Prints the log size and status codes in a formatted way"""
     print("File size: {}".format(fileSize))
     for key, value in sorted(statusCodes.items()):
         print("{}: {}".format(key, value))
