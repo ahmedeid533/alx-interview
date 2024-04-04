@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Main file for validating"""
 
+
 def validUTF8(data):
     """valisates UTF-8 encoding"""
     byte_count = 0
