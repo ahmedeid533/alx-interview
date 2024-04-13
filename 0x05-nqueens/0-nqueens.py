@@ -27,7 +27,8 @@ def solve(board, col, n):
             board[i][col] = 1
             solve(board, col + 1, n)
             board[i][col] = 0
-    
+
+
 def nqueens(n):
     """ N queens problem """
     if n < 4:
