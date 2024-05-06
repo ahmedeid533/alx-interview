@@ -1,3 +1,1 @@
-# Island Perimeter
-
-Setting up Matrix Array in Grid Pattern
+# Island Perimeter (boundries of water)
